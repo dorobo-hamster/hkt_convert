@@ -1,0 +1,17 @@
+1.0
+xxxx-xx-xx
+
+
+1.0b
+2010-12-05
+Renamed from animeultrastar_convert to hkt_convert.
+Uses automake/autoconf makefile system.
+Added commandline arguments for files (lyrics, pitches, times, output).
+Uses UTF-8 (input and output).
+Added support for timing file.
+Uses tilde instead of hyphen for lyrics spanning multiple notes.
+
+0.5
+2010-11-27
+Reads pitches and lyrics (hardcoded filenames) and outputs to standard output.
+Uses new file format.

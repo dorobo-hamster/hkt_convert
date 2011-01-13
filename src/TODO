@@ -1,0 +1,15 @@
+TODO
+
+Comment code
+Readme
+Allow flats in pitches file - which character?
+b is too much like the note b: ab2 bb2
+New format? a+2, b-2 is quicker to type, but less intuitive.
+a2 f2
+
+
+Design Issues
+
+Is there a point supporting raw data (instead of UTF-8)?
+Input raw/UTF-8, Output raw/UTF-8.
+I don't think so because the format specifies certain characters '-', '\' and ' '. A language that has different raw codes for these will be unusable. It will only cater for some languages (haven't researched) like Windows 1252 (extended ASCII). Ultrastar Deluxe (1.1) now uses UTF-8 by default (and converts files) so it is officially safe.
