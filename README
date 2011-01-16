@@ -1,0 +1,18 @@
+This project is for programs to convert to and from Houkago Karaoke Time (HKT) format.
+
+Currently it just converts files from HKT format to UltraStar format. 
+
+Roadmap
+
+Switch from Autotools to CMake or SCons
+Convert from Ultrastar to HKT format
+GUI timing, pitching and lyrics
+Convert to MIDI
+Autodetect BPM, pitches, lyrics
+
+File formats
+lyrics
+
+pitches
+
+times
